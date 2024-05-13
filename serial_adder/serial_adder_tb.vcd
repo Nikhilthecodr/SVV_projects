@@ -1,0 +1,249 @@
+$date
+	Sat May 11 23:14:56 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ns
+$end
+$scope module serial_adder_tb $end
+$var wire 4 ! out [3:0] $end
+$var wire 1 " cout $end
+$var wire 5 # acc [4:0] $end
+$var reg 1 $ clk $end
+$var reg 4 % data_a [3:0] $end
+$var reg 4 & data_b [3:0] $end
+$var reg 1 ' reset $end
+$scope module s_adder $end
+$var wire 1 $ clk $end
+$var wire 4 ( data_a [3:0] $end
+$var wire 4 ) data_b [3:0] $end
+$var wire 1 ' reset $end
+$var wire 1 * wire_b $end
+$var wire 1 + wire_a $end
+$var wire 1 , sum $end
+$var wire 1 - cout_temp $end
+$var wire 1 . cin $end
+$var reg 5 / acc [4:0] $end
+$var reg 3 0 count [2:0] $end
+$var reg 1 " cout $end
+$var reg 1 1 enable $end
+$var reg 4 2 out [3:0] $end
+$scope module adder $end
+$var wire 1 , sum $end
+$var wire 1 - cout $end
+$var wire 1 . cin $end
+$var wire 1 * b $end
+$var wire 1 + a $end
+$upscope $end
+$scope module dff $end
+$var wire 1 $ clk $end
+$var wire 1 - d $end
+$var wire 1 1 enable $end
+$var wire 1 ' reset $end
+$var reg 1 . out $end
+$upscope $end
+$scope module piso_a $end
+$var wire 1 $ clk $end
+$var wire 4 3 data [3:0] $end
+$var wire 1 1 enable $end
+$var wire 1 ' rst $end
+$var reg 4 4 memory [3:0] $end
+$var reg 1 + out $end
+$upscope $end
+$scope module piso_b $end
+$var wire 1 $ clk $end
+$var wire 4 5 data [3:0] $end
+$var wire 1 1 enable $end
+$var wire 1 ' rst $end
+$var reg 4 6 memory [3:0] $end
+$var reg 1 * out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 6
+b1 5
+b1 4
+b1 3
+b0 2
+11
+b0 0
+bx /
+0.
+0-
+0,
+0+
+0*
+b1 )
+b1 (
+1'
+b1 &
+b1 %
+0$
+bx #
+x"
+b0 !
+$end
+#100000000
+1$
+#200000000
+0$
+#300000000
+1$
+#400000000
+0$
+#500000000
+1$
+#600000000
+0$
+#700000000
+1$
+#800000000
+0$
+#900000000
+1$
+#1000000000
+0$
+0'
+#1100000000
+1-
+b0 4
+1+
+b0 6
+1*
+b0 #
+b0 /
+b1 0
+0"
+1$
+#1200000000
+0$
+#1300000000
+1,
+0-
+b10000 #
+b10000 /
+b10 0
+1"
+1.
+0*
+0+
+1$
+#1400000000
+0$
+#1500000000
+0,
+0.
+b1000 #
+b1000 /
+b1000 !
+b1000 2
+b11 0
+0"
+1$
+#1600000000
+0$
+#1700000000
+b100 #
+b100 /
+b100 !
+b100 2
+b100 0
+1$
+#1800000000
+0$
+#1900000000
+b10 #
+b10 /
+b10 !
+b10 2
+b101 0
+1$
+#2000000000
+b11 6
+b1 4
+b0 !
+b0 2
+b0 0
+0$
+1'
+b11 &
+b11 )
+b11 5
+#2100000000
+1$
+#2200000000
+0$
+#2300000000
+1$
+#2400000000
+0$
+#2500000000
+1$
+#2600000000
+0$
+#2700000000
+1$
+#2800000000
+0$
+#2900000000
+1$
+#3000000000
+0$
+0'
+#3100000000
+1-
+b0 #
+b0 /
+b1 0
+b1 6
+1*
+b0 4
+1+
+1$
+#3200000000
+0$
+#3300000000
+0+
+b0 6
+1.
+b10000 #
+b10000 /
+b10 0
+1"
+1$
+#3400000000
+0$
+#3500000000
+1,
+0-
+b11 0
+0*
+1$
+#3600000000
+0$
+#3700000000
+0,
+0.
+b1000 #
+b1000 /
+b1000 !
+b1000 2
+b100 0
+0"
+1$
+#3800000000
+0$
+#3900000000
+b100 #
+b100 /
+b100 !
+b100 2
+b101 0
+1$
+#4000000000
+0$
