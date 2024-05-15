@@ -10,4 +10,32 @@ initial begin
     end
     $finish; // End simulation
   end
+ //    initial begin
+ // T1.cb.data_a <= 4'b0001; T1.cb.data_b <= 4'b0001; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0001; T1.cb.data_b <= 4'b0001; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0001; T1.cb.data_b <= 4'b0011; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0001; T1.cb.data_b <= 4'b0011; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0101; T1.cb.data_b <= 4'b0010; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b1100; T1.cb.data_b <= 4'b0111; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b1010; T1.cb.data_b <= 4'b1001; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b1010; T1.cb.data_b <= 4'b1001; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0111; T1.cb.data_b <= 4'b1111; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0111; T1.cb.data_b <= 4'b1111; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1111; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0111; T1.cb.data_b <= 4'b1111; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0011; T1.cb.data_b <= 4'b0011; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0111; T1.cb.data_b <= 4'b1100; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1011; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1011; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1000; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0010; T1.cb.data_b <= 4'b0011; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1010; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1111; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1010; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b1110;  T1.cb.data_b <= 4'b1010; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1010; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b1111; T1.cb.data_b <= 4'b1110; T1.reset <= 1; #100;
+ // T1.cb.data_a <= 4'b0110; T1.cb.data_b <= 4'b1011; T1.reset <= 0; #100;
+ // T1.cb.data_a <= 4'b1111; T1.cb.data_b <= 4'b1010; T1.reset <= 1; #100; 
+ //  end
 endprogram
