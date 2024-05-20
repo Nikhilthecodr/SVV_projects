@@ -1,3 +1,7 @@
--vsim -voptargs="+acc" top
--vlog -cover bcsxf all files
--vsim -voptargs="+acc" -coverage top
+# Commands in ModelSim
+
+- vsim -voptargs="+acc" top
+
+- vlog -cover bcsxf all files
+
+- vsim -voptargs="+acc" -coverage top
