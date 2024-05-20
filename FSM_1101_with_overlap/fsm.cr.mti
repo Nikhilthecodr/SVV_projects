@@ -1,0 +1,43 @@
+D:/SVV/fsm/transactor.sv {2 {vlog -work work -vopt -sv -stats=none {D:\SVV\fsm\transactor.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+** Warning: D:\SVV\fsm\transactor.sv(1): (vlog-13233) Design unit "transactor_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/SVV/fsm/fsm_1101.v {1 {vlog -work work -vopt -stats=none {D:\SVV\fsm\fsm_1101.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fsm_1101
+
+Top level modules:
+	fsm_1101
+
+} {} {}} D:/SVV/fsm/top.sv {1 {vlog -work work -vopt -sv -stats=none {D:\SVV\fsm\top.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module sequence_detector
+-- Compiling package top_sv_unit
+-- Compiling interface fsm_inter
+-- Compiling program test
+-- Compiling module top
+
+Top level modules:
+	sequence_detector
+	top
+
+} {} {}} D:/SVV/fsm/fsm_inter.sv {1 {vlog -work work -vopt -sv -stats=none {D:\SVV\fsm\fsm_inter.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling interface fsm_inter
+
+Top level modules:
+	--none--
+
+} {} {}} D:/SVV/fsm/test.sv {1 {vlog -work work -vopt -sv -stats=none {D:\SVV\fsm\test.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling package test_sv_unit
+-- Compiling interface fsm_inter
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}}
